@@ -144,7 +144,7 @@ public class NotePad extends JFrame {
         	public void actionPerformed(ActionEvent e) {
         		PrinterJob printerJob = PrinterJob.getPrinterJob();
 
-                // Show the print dialog
+                // Show the print dialo
                 if (printerJob.printDialog()) {
                     try {
                         // Perform the print operation
